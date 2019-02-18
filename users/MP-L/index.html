@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html id="world" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" id="style" href="../../css/style.css">
+    <title>PCS</title>
+  </head>
+  <body class="animated fadeInDown" onload="startTime()">
+    <!-- <h1 id="title">PCS</h1> -->
+    <img src="../../PSCGicon.jpg" id="icone" class="icone" alt="PCS">
+    <div id="timetext"></div><div class="men">
+
+    <a id="canteenlink" href="../../canteenmenu.html"><i class="fas fa-utensils"></i></a>
+    <a onclick="openNav()"><i class="fas fa-cog"></i></a>
+    <!-- <a onclick="debugMode()" id="debug"><i class="fas fa-wrench"></i></i></a> -->
+    </div>
+
+<div id="noschool">
+    <p class="classtime">You Have <span class="youhave" id="youhaveNow">N/A</span> In <span class="youhaveClass" id="youhaveNowClass">N/A</span> at <span class="youhaveTime" id="youhaveNowTime">00:00-00:00</span></p>
+
+    <p class="classtimenext" id="youhaveNextUp">Next Up <span class="youhave" id="youhaveNext">N/A</span> In <span class="youhave" id="youhaveNextClass">N/A</span></p>
+    <p style="font-size: 15px;
+    color: #363636;">This is a beta acc, there may be errors and bugs.</p>
+</div>
+<p id="showDay"></p>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <p class="settingstxt">Light Mode: </p> <input type="checkbox" id="toggle0" onclick="lightMode()" class="offscreen" /> <label for="toggle0" class="switch"></label>
+  <p class="settingstxt">Simple Mode: </p> <input type="checkbox" id="toggle1" onclick="simpleMode()" class="offscreen" /> <label for="toggle1" class="switch"></label>
+  <!-- <p class="settingstxt">Power Save: </p> <input type="checkbox" id="toggle2" onclick="powerSaveMode()" class="offscreen" /> <label for="toggle2" class="switch"></label> -->
+  <p class="settingstxt">Erpk Mode: </p> <input type="checkbox" id="toggle3" onclick="erpkMode()" class="offscreen" /> <label for="toggle3" class="switch"></label>
+  <!-- <p class="settingstxt">Nigga Mode: </p> <input type="checkbox" id="toggle4" class="offscreen" /> <label for="toggle4" class="switch"></label> -->
+
+</div>
+
+    <!-- <div class="homework">
+      <p>Notes</p>
+      <textarea id="textarea" name="hm" rows="3" cols="0"></textarea>
+    </div> -->
+    <script src="system.js"></script>
+  </body>
+</html>
