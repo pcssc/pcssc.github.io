@@ -52,10 +52,13 @@ a{
   display: inline-block;
 }
 textarea{
-  font-size: 20px;
-  padding: 20px;
-  margin: 20px;
-  width: 90%;
+  font-size: 17px;
+    padding: 5px;
+    margin: 20px;
+    width: 67%;
+    background: #d7d7d7;
+    border: none;
+    height: 120px;
 }
 p{
   font-size: 30px;
