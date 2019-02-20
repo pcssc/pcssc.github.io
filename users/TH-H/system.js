@@ -20,7 +20,7 @@ if (n == 1) {
 
 
     // CAEP
-    if (h >= 9) {
+    if (h >= 8) {
       document.getElementById('youhaveNow').innerHTML = 'Media';
       document.getElementById('youhaveNowClass').innerHTML = '505';
       document.getElementById('youhaveNowTime').innerHTML = '9:00-10:40';
@@ -72,7 +72,7 @@ if (n == 2) {
 
 
     // Science
-    if (h >= 9) {
+    if (h >= 8) {
       document.getElementById('youhaveNow').innerHTML = 'History';
       document.getElementById('youhaveNowClass').innerHTML = '605';
       document.getElementById('youhaveNowTime').innerHTML = '9:00-10:40';
@@ -124,7 +124,7 @@ if (n == 3) {
 
 
     // Mathematics
-    if (h >= 9) {
+    if (h >= 8) {
       document.getElementById('youhaveNow').innerHTML = 'Mathematics';
       document.getElementById('youhaveNowClass').innerHTML = '705';
       document.getElementById('youhaveNowTime').innerHTML = '9:00-10:40';
@@ -176,7 +176,7 @@ if (n == 4) {
 
 
     // Graphic Design
-    if (h >= 9) {
+    if (h >= 8) {
       document.getElementById('youhaveNow').innerHTML = 'Graphic Design';
       document.getElementById('youhaveNowClass').innerHTML = '508';
       document.getElementById('youhaveNowTime').innerHTML = '9:00-10:40';
@@ -228,7 +228,7 @@ if (n == 5) {
 
 
     // English
-    if (h >= 9) {
+    if (h >= 8) {
       document.getElementById('youhaveNow').innerHTML = 'English';
       document.getElementById('youhaveNowClass').innerHTML = '601';
       document.getElementById('youhaveNowTime').innerHTML = '9:00-10:40';

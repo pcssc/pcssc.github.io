@@ -20,7 +20,7 @@ if (n == 1) {
 
 
     // CAEP
-    if (h >= 9) {
+    if (h >= 8) {
       document.getElementById('youhaveNow').innerHTML = 'Food Studies';
       document.getElementById('youhaveNowClass').innerHTML = '313';
       document.getElementById('youhaveNowTime').innerHTML = '9:00-10:40';
@@ -72,7 +72,7 @@ if (n == 2) {
 
 
     // Science
-    if (h >= 9) {
+    if (h >= 8) {
       document.getElementById('youhaveNow').innerHTML = 'Health Edu';
       document.getElementById('youhaveNowClass').innerHTML = '706';
       document.getElementById('youhaveNowTime').innerHTML = '9:00-10:40';
@@ -124,7 +124,7 @@ if (n == 3) {
 
 
     // Mathematics
-    if (h >= 9) {
+    if (h >= 8) {
       document.getElementById('youhaveNow').innerHTML = 'English';
       document.getElementById('youhaveNowClass').innerHTML = '503B';
       document.getElementById('youhaveNowTime').innerHTML = '9:00-10:40';
@@ -176,7 +176,7 @@ if (n == 4) {
 
 
     // Graphic Design
-    if (h >= 9) {
+    if (h >= 8) {
       document.getElementById('youhaveNow').innerHTML = 'CAEP';
       document.getElementById('youhaveNowClass').innerHTML = '603';
       document.getElementById('youhaveNowTime').innerHTML = '9:00-10:40';
@@ -228,7 +228,7 @@ if (n == 5) {
 
 
     // English
-    if (h >= 9) {
+    if (h >= 8) {
       document.getElementById('youhaveNow').innerHTML = 'Mathematics';
       document.getElementById('youhaveNowClass').innerHTML = '701';
       document.getElementById('youhaveNowTime').innerHTML = '9:00-10:40';
