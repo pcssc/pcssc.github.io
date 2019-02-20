@@ -80,6 +80,7 @@ button{
 }
 #showDay{
   display: none;
+  font-size: medium;
 }
 img{
     width: 30%;
