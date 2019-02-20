@@ -19,19 +19,18 @@ body{
     font-weight: bold;
     max-width: 250px;
 }
-a{
-  font-size: 20px;
-  color: #fff;
-  padding: 18px;
-
-}
 .item{
   font-size: 20px;
   color: #888;
-  padding: 20px;
+  padding: 10px;
+  padding-left: 40px;
+
 }
 .price{
   color: #454545;
+}
+.menui{
+  padding-top: 40px;
 }
 .youhave{
   color: #454545;

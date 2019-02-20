@@ -1,21 +1,33 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html id="world" lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <title>PCS | Menu</title>
+    <link rel="stylesheet" id="style" href="css/style.css">
+    <link rel="icon" href="PSCGicon.jpg">
+    <title>PCS</title>
   </head>
   <body class="animated fadeInDown">
-    <!-- <h1 id="title">PCS <span>Menu</span></h1> -->
-    <img src="PSCGicon.jpg" alt="PCS">
-    <div class="men">
-      <!-- <a href="index.html"><i class="fas fa-school"></i></a> -->
-    </div>
-    <p class="item">Canteen Menu coming soon<span class="price">$price</span></p>
+<div class="menui">
 
+  <p class="item">Not <span class="price">$53</span></p>
+  <p class="item">Done <span class="price">$53</span></p>
+
+</div>
+<a onclick="goBack()">
+      <div class="actbox">
+        <span style="color:#4a0f80;" class="actlang">裏</span>
+        <p class="acttitle">Back</p>
+      </div>
+</a>
+
+<script type="text/javascript">
+function goBack() {
+window.history.back();
+}
+</script>
   </body>
 </html>
