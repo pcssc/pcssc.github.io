@@ -12,36 +12,60 @@
   </head>
   <body class="animated fadeInDown" onload="startTime()">
     <!-- <h1 id="title">PCS</h1> -->
-    <img src="../../PSCGicon.jpg" id="icone" class="icone" alt="PCS">
-    <div id="timetext"></div><div class="men">
-
-    <a id="canteenlink" href="../../canteenmenu.html"><i class="fas fa-utensils"></i></a>
-    <a onclick="openNav()"><i class="fas fa-cog"></i></a>
-    <a onclick="debugMode()" id="debug"><i class="fas fa-wrench"></i></i></a>
+    <!-- <img src="../../PSCGicon.jpg" id="icone" class="icone" alt="PCS"> -->
+    <!-- <a id="canteenlink" href="../../canteenmenu.html"><i class="fas fa-utensils"></i></a>
+    <a onclick="openNav()"><i class="fas fa-cog"></i></a> -->
+    <!-- <a onclick="debugMode()" id="debug"><i class="fas fa-wrench"></i></i></a> -->
     </div>
 
 <div id="noschool">
+  <p id="timelang">時</p>
+  <div id="timetext"></div><div class="men">
+
     <p class="classtime">You Have <span class="youhave" id="youhaveNow">N/A</span> In <span class="youhaveClass" id="youhaveNowClass">N/A</span> at <span class="youhaveTime" id="youhaveNowTime">00:00-00:00</span></p>
 
     <p class="classtimenext" id="youhaveNextUp">Next Up <span class="youhave" id="youhaveNext">N/A</span> In <span class="youhave" id="youhaveNextClass">N/A</span></p>
-    <p style="font-size: 15px;
-    color: #363636;">This is a beta acc, there may be errors and bugs.</p>
+    <!-- <p style="font-size: 15px;
+    color: #363636;">This is a beta acc, there may be errors and bugs.</p> -->
 </div>
 <p id="showDay"></p>
-<div id="mySidenav" class="sidenav">
+<!-- <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <p class="settingstxt">Light Mode: </p> <input type="checkbox" id="toggle0" onclick="lightMode()" class="offscreen" /> <label for="toggle0" class="switch"></label>
   <p class="settingstxt">Simple Mode: </p> <input type="checkbox" id="toggle1" onclick="simpleMode()" class="offscreen" /> <label for="toggle1" class="switch"></label>
-  <!-- <p class="settingstxt">Power Save: </p> <input type="checkbox" id="toggle2" onclick="powerSaveMode()" class="offscreen" /> <label for="toggle2" class="switch"></label> -->
+  <p class="settingstxt">Power Save: </p> <input type="checkbox" id="toggle2" onclick="powerSaveMode()" class="offscreen" /> <label for="toggle2" class="switch"></label>
   <p class="settingstxt">Erpk Mode: </p> <input type="checkbox" id="toggle3" onclick="erpkMode()" class="offscreen" /> <label for="toggle3" class="switch"></label>
-  <!-- <p class="settingstxt">Nigga Mode: </p> <input type="checkbox" id="toggle4" class="offscreen" /> <label for="toggle4" class="switch"></label> -->
+  <p class="settingstxt">Nigga Mode: </p> <input type="checkbox" id="toggle4" class="offscreen" /> <label for="toggle4" class="switch"></label>
 
-</div>
+</div> -->
+  <div class="Act">
+    <p id="Acttext">Actions</p>
+    <div class="acttio">
 
-    <div class="homework">
-      <p>Notes</p>
-      <textarea id="textarea" name="hm" rows="3" cols="0"></textarea>
+      <div class="actbox">
+        <p class="acttitle">Call Uber <span style="color:#279BE3;" class="actlang">車</span></p>
+        <p class="actp">After School</p>
+      </div>
+
+      <div class="actbox">
+        <p class="acttitle">Homework <span style="color:#8527E3;" class="actlang">作</span></p>
+        <p class="actp">5 Done</p>
+      </div>
+
+
     </div>
+    <div class="acttio">
+    <div class="actbox">
+      <p class="acttitle">Notes <span style="color:#CDE327;" class="actlang">書</span></p>
+      <p class="actp">Class Notes</p>
+    </div>
+
+    <div class="actbox">
+      <p class="acttitle">Compass <span style="color:#E3274B;" class="actlang">政</span></p>
+      <p class="actp">Login Codes</p>
+    </div>
+  </div>
+</div>
     <script src="system.js"></script>
   </body>
 </html>
