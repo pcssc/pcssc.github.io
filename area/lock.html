@@ -4,10 +4,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="../../css/all.min.css">
+    <link rel="stylesheet" href="../css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-    <link rel="stylesheet" id="style" href="../../css/style.css">
-    <link rel="icon" href="../../PSCGicon.jpg">
+    <link rel="stylesheet" id="style" href="../css/style.css">
+    <link rel="icon" href="../PSCGicon.jpg">
+    <style media="screen">
+      textarea{
+        font-size: 17px;
+padding: 5px;
+margin: 20px;
+width: 11%;
+background: #d7d7d7;
+border: none;
+height: 220px;
+      }
+    </style>
     <title>PCS</title>
   </head>
   <body class="animated fadeInLeft">
@@ -27,11 +38,11 @@
   <p class="settingstxt">Erpk Mode: </p> <input type="checkbox" id="toggle3" onclick="erpkMode()" class="offscreen" /> <label for="toggle3" class="switch"></label>
   <p class="settingstxt">Nigga Mode: </p> <input type="checkbox" id="toggle4" class="offscreen" /> <label for="toggle4" class="switch"></label>
 
-</div> -->
-<p>To Do:</p>
-<textarea style="height: 70px;" placeholder="To Do" name="name" rows="1" cols="60" data-store="4"></textarea>
-<p>Finished:</p>
-<textarea style="height: 70px;" placeholder="Finished" name="name" rows="1" cols="60" data-store="5"></textarea>
+</div> --><p>Lock Code:</p>
+
+<textarea style="height:25px;" placeholder="00" name="name" rows="1" cols="60" data-store="6"></textarea>
+<textarea style="height:25px;" placeholder="00" name="name" rows="1" cols="60" data-store="7"></textarea>
+<textarea style="height:25px;" placeholder="00" name="name" rows="1" cols="60" data-store="8"></textarea>
 
 <a onclick="goBack()">
       <div class="actbox">
@@ -44,8 +55,8 @@ function goBack() {
 window.history.back();
 }
 </script>
-<script src="../../js/jquery.min.js"></script>
-<script src="../../js/cokie.js"></script>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/cokie.js"></script>
 
   </body>
 </html>

@@ -4,10 +4,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="../../css/all.min.css">
+    <link rel="stylesheet" href="../css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-    <link rel="stylesheet" id="style" href="../../css/style.css">
-    <link rel="icon" href="../../PSCGicon.jpg">
+    <link rel="stylesheet" id="style" href="../css/style.css">
+    <link rel="icon" href="../PSCGicon.jpg">
+    <style media="screen">
+      textarea{
+        font-size: 17px;
+padding: 5px;
+margin: 20px;
+width: 11%;
+background: #d7d7d7;
+border: none;
+height: 220px;
+      }
+    </style>
     <title>PCS</title>
   </head>
   <body class="animated fadeInLeft">
@@ -28,11 +39,58 @@
   <p class="settingstxt">Nigga Mode: </p> <input type="checkbox" id="toggle4" class="offscreen" /> <label for="toggle4" class="switch"></label>
 
 </div> -->
-<p>To Do:</p>
-<textarea style="height: 70px;" placeholder="To Do" name="name" rows="1" cols="60" data-store="4"></textarea>
-<p>Finished:</p>
-<textarea style="height: 70px;" placeholder="Finished" name="name" rows="1" cols="60" data-store="5"></textarea>
+<p id="Acttext">Apps - not done</p>
+<div class="acttio">
+<a href="">
+  <div class="actbox">
+    <span style="color:#279BE3;" class="actlang">車</span>
+    <p class="acttitle">Uber</p>
+  </div>
+</a>
+<a href="">
 
+  <div class="actbox">
+    <span style="color:#8527E3;" class="actlang">私</span>
+    <p class="acttitle">Account</p>
+  </div>
+</a>
+
+
+</div>
+<div class="acttio">
+<a href="">
+  <div class="actbox">
+    <span style="color:#279BE3;" class="actlang">地</span>
+    <p class="acttitle">Maps</p>
+  </div>
+</a>
+<a href="">
+
+  <div class="actbox">
+    <span style="color:#8527E3;" class="actlang">送</span>
+    <p class="acttitle">Transport</p>
+  </div>
+</a>
+
+
+</div>
+<div class="acttio">
+<a href="">
+  <div class="actbox">
+    <span style="color:#279BE3;" class="actlang">定</span>
+    <p class="acttitle">Settings</p>
+  </div>
+</a>
+<a href="">
+
+  <div class="actbox">
+    <span style="color:#8527E3;" class="actlang">約</span>
+    <p class="acttitle">About</p>
+  </div>
+</a>
+
+
+</div>
 <a onclick="goBack()">
       <div class="actbox">
         <span style="color:#4a0f80;" class="actlang">裏</span>
@@ -44,7 +102,8 @@ function goBack() {
 window.history.back();
 }
 </script>
-<script src="../../js/jquery.min.js"></script>
-<script src="../../js/cokie.js"></script>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/cokie.js"></script>
+
   </body>
 </html>
