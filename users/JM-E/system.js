@@ -281,16 +281,16 @@ document.getElementById('showDay').innerHTML = 'Day is: ' + d + ' Code Day is: '
 if (n == 6) {
 
 
-  var noschoolvar = document.getElementById("noschool");
-  noschoolvar.classList.add("noschool");
+  var noschoolvar = document.getElementById("men");
+  noschoolvar.classList.add("men");
 
 }
 // no school
 if (n == 0) {
 
 
-  var noschoolvar = document.getElementById("noschool");
-  noschoolvar.classList.add("noschool");
+  var noschoolvar = document.getElementById("men");
+  noschoolvar.classList.add("men");
 
 }
 

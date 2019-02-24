@@ -1,0 +1,26 @@
+CACHE MANIFEST
+#This is a comment
+
+CACHE
+index.html
+css/style.css
+css/styleEzeze.css
+css/fontawesome.min.css
+css/all.min.css
+js/cokie.js
+js/jquery.min.js
+js/sub-system.js
+area/apps.html
+area/canteenmenu.html
+area/compasscodes.html
+area/homework.html
+area/lock.html
+area/map.html
+area/mynotes.html
+users/
+webfonts/
+map.png
+PSCGicon.jpg
+
+FALLBACK:
+/api offline.html

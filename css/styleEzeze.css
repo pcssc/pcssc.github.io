@@ -73,10 +73,11 @@ p{
   padding: 20px;
 }
 
-.noschool {
+.men {
   display: none;
 }
-#noschool{}
+#men{
+   display: none;}
 button{
   font-size: 20px;
   color: #ff6363;
