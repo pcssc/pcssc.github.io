@@ -1,4 +1,5 @@
 function startTime() {
+  var noschoolvar = document.getElementById("men");
     var today = new Date();
     var date = new Date();
     var h = today.getHours();
@@ -17,6 +18,7 @@ function startTime() {
 
 // Monday
 if (n == 1) {
+  noschoolvar.classList.add("menshow");
 
 
     // CAEP
@@ -69,6 +71,7 @@ if (n == 1) {
 
 // Tuesday
 if (n == 2) {
+  noschoolvar.classList.add("menshow");
 
 
     // Science
@@ -121,6 +124,7 @@ if (n == 2) {
 
 // Wednesday
 if (n == 3) {
+  noschoolvar.classList.add("menshow");
 
 
     // Mathematics
@@ -173,6 +177,7 @@ if (n == 3) {
 
 // Thursday
 if (n == 4) {
+  noschoolvar.classList.add("menshow");
 
 
     // Graphic Design
@@ -225,6 +230,7 @@ if (n == 4) {
 
 // Friday
 if (n == 5) {
+  noschoolvar.classList.add("menshow");
 
 
     // English
@@ -280,16 +286,12 @@ document.getElementById('showDay').innerHTML = 'Day is: ' + d + ' Code Day is: '
 // no school
 if (n == 6) {
 
-
-  var noschoolvar = document.getElementById("men");
   noschoolvar.classList.add("men");
 
 }
 // no school
 if (n == 0) {
 
-
-  var noschoolvar = document.getElementById("men");
   noschoolvar.classList.add("men");
 
 }
