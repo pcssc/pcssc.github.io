@@ -3,24 +3,14 @@ CACHE MANIFEST
 
 CACHE
 index.html
-css/style.css
-css/styleEzeze.css
-css/fontawesome.min.css
-css/all.min.css
-js/cokie.js
-js/jquery.min.js
-js/sub-system.js
-area/apps.html
-area/canteenmenu.html
-area/compasscodes.html
-area/homework.html
-area/lock.html
-area/map.html
-area/mynotes.html
+css/
+js/
+area/
 users/
 webfonts/
 map.png
 PSCGicon.jpg
+404.html
 
 FALLBACK:
 /api offline.html
