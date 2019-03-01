@@ -3,6 +3,7 @@
 *{
   padding: 0;
   margin: 0;
+  transition: 0.4s;
   }
 body{
   background: #EBEBEB;
@@ -185,7 +186,7 @@ input[type='checkbox']:checked + .switch {
   display: inline;
   padding: 0;
   padding-left: 47px;
-  color: #279BE3;
+  /* color: #279BE3; */
 }
 #Acttext{
   font-size: 17px;
@@ -227,6 +228,7 @@ padding-bottom: 0;
   /* margin-left: 10px; */
   float: right;
   padding: 15px;
+  color: #279BE3;
 }
 
 .act{
@@ -273,6 +275,7 @@ pre {
   /* margin-left: 10px; */
   float: right;
   padding: 15px;
+  color: #bd27e3;
 }
 #QuickActtext{
   font-size: 16px;
@@ -287,4 +290,19 @@ pre {
 
 .menshow{
      display: inline-block;
+   }
+   table {
+     font-family: arial, sans-serif;
+     border-collapse: collapse;
+     width: 100%;
+   }
+
+   td, th {
+     border: 1px solid #dddddd;
+     text-align: left;
+     padding: 8px;
+   }
+
+   tr:nth-child(even) {
+     background-color: #dddddd;
    }
